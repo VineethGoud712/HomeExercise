@@ -1,59 +1,87 @@
-# HomeExercise
+# Product Page – Documentation
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
+## Objective
 
-## Development server
+This product page is designed to create a clear, trustworthy, and conversion-focused experience by reducing cognitive load and improving content discoverability.
 
-To start a local development server, run:
+The design leverages:
 
-```bash
-ng serve
-```
+- Strong visual hierarchy  
+- Optimized contrast ratios  
+- Structured information architecture  
+- Clear interaction affordances  
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The goal is to help users quickly understand the product and make confident purchase decisions.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+# UX & Design Implementation
 
-```bash
-ng generate component component-name
-```
+## Key Design Sections
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 1. Background & Contrast
+- Brand-aligned color palette
+- Optimized contrast ratios
+- Improved readability and accessibility
+- Clear emphasis on primary elements
 
-```bash
-ng generate --help
-```
+### 2. Product Image Carousel
+- Prominent top placement
+- Multiple high-quality product images
+- Swipe/scroll indicators
+- Increased transparency and trust
 
-## Building
+### 3. Product Title & Hierarchy
+- Larger, bold title for prominence
+- Supporting details with lower visual weight
+- Structured typography hierarchy
+- Improved scannability
 
-To build the project run:
+### 4. Ratings & Social Proof
+- Visible rating (4.6) and review count (63.0K)
+- Early trust reinforcement
+- Balanced contrast for clarity
 
-```bash
-ng build
-```
+### 5. Quantity & Conversion Strategy
+- Clear quantity selection options
+- Bundle discounts (e.g., 2-pack with 5% savings)
+- Visual grouping for clarity
+- Encourages higher-value purchases
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 6. Content Segmentation
+- Clearly defined information sections
+- Structured headings and descriptions
+- Improved readability through spacing and alignment
 
-## Running unit tests
+### 7. Accessibility Considerations
+- Accessible contrast ratios
+- Optimized font sizes
+- Clear touch targets
+- Inclusive and readable design across devices
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+# Tech Stack Used
 
-## Running end-to-end tests
+- **Angular (v20.1.5)** – Component-based frontend framework  
+- **Bootstrap** – Responsive grid system and layout utilities  
+- **SCSS** – Structured styling with variables and modular architecture  
+- **TypeScript** – Strongly typed JavaScript for scalable development  
+- **HTML5** – Semantic markup for accessibility and SEO  
+- **Gemini-ai** -  For Image Generation
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+# Development Setup
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+This project was generated using Angular CLI version 20.1.5.
 
-## Additional Resources
+## How to run this project
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. install Angular version 20
+2. clone from github
+3. Run npm install
+4. ng serve
+5. open https://localhost:4200
+
+
